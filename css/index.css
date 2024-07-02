@@ -1,0 +1,33 @@
+body {
+    background-color: blanchedalmond;
+    font-size: 25px;
+    /*taille en 25 pixel*/
+}
+h1{
+    text-decoration: overline;
+    font-family: Arial, Helvetica, sans-serif;
+}
+section p {
+    color: orange;
+    /*Tous les p à l'interieur de la balise section sont en rouge*/
+}
+section p:first-child{
+    color: blue;
+    /*cible le premier p de section*/
+}
+section p:nth-child(4),section p:nth-child(4){
+    color: azure;
+}
+
+section p:last-child{
+    color: aqua;
+    /*cible le dernier enfent de section*/
+}
+/* pour styliser une seule div quand on en a plusieurs on cible avec le css */
+.zone2{
+    background-color: brown;
+}
+
+#zone5 {
+    color: yellowgreen;
+}
