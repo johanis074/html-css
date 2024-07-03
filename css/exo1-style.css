@@ -1,8 +1,11 @@
 body{
-    background: lemonchiffon;
+    /*background: lemonchiffon;*/
+    text-align: center;
+    box-shadow: 7px 8px 64px 7px black ;
+    margin: 10% 25% 10% 25%;
 }
 
-body #sec1{
+/*body #sec1{
     background-color:cadetblue;
 }
 
@@ -12,7 +15,7 @@ body #sec2{
 
 body #sec3{
     background-color:burlywood;
-}
+}*/
 body section ul li:nth-child(2){
     color: salmon;
 }
@@ -23,6 +26,13 @@ body header .become{
 
 body section ul li:nth-child(odd){
     color: crimson;
+}
+
+.separate{
+    background-color: crimson;
+    padding-top: 3px;
+    margin-left: 20%;
+    margin-right: 20%;
 }
 
 body footer h2{
