@@ -19,6 +19,15 @@ section p:nth-child(4),section p:nth-child(4){
     color: azure;
 }
 
+section p:nth-child(even){
+    font-weight: 800;
+}
+
+section p:nth-child(odd){
+    font-weight: 900;
+    font-style: italic;
+}
+
 section p:last-child{
     color: aqua;
     /*cible le dernier enfent de section*/

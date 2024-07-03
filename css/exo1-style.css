@@ -1,0 +1,48 @@
+body{
+    background: lemonchiffon;
+}
+
+body #sec1{
+    background-color:cadetblue;
+}
+
+body #sec2{
+    background-color:cornflowerblue;
+}
+
+body #sec3{
+    background-color:burlywood;
+}
+body section ul li:nth-child(2){
+    color: salmon;
+}
+
+body header .become{
+    text-decoration:underline;
+}
+
+body section ul li:nth-child(odd){
+    color: crimson;
+}
+
+body footer h2{
+    font-weight: bold;
+    color: aqua;
+}
+
+body section img{
+    width: 30%;
+    border-radius: 35%;
+}
+
+body footer ol li div p{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    
+}
+
+body a{
+    color: brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2em;
+    font-style: italic;
+}
