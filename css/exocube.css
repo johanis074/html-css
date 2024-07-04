@@ -1,0 +1,53 @@
+*{
+    text-align: center;
+    color: white;
+}
+header{
+    background-color:peru;
+    padding: 2%;
+}
+nav{
+    background-color:dimgrey;
+    padding: 1%;
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: ;
+    border: 1px solid white;
+    padding: 12%;
+}
+
+.cube{
+    display: inline-block;
+    justify-content: start;
+  
+    
+}
+
+
+
+
+#div1{
+    background-color: darksalmon;
+}
+
+#div2{
+    background-color:rgb(201, 201, 38);
+}
+
+#div3{
+    background-color: rgb(122, 233, 128);
+}
+
+#div4{
+    background-color: rgb(30, 10, 207);
+}
+
+
+
+footer{
+    background-color:gray;
+    padding: 3%;
+}
