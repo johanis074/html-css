@@ -4,50 +4,62 @@
 }
 header{
     background-color:peru;
-    padding: 2%;
+    padding: 1%;
 }
 nav{
     background-color:dimgrey;
-    padding: 1%;
+    padding: 1px;
+}
+section{
+    
+    background-color: violet;
+    padding-top: 0.5%;
+    padding-bottom: 0.5%;
 }
 
-div{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: ;
-    border: 1px solid white;
-    padding: 12%;
-}
-
-.cube{
-    display: inline-block;
-    justify-content: start;
-  
+table{
+    background-color: violet;
+    margin-left: 0.1%;
+    
     
 }
-
-
-
-
-#div1{
-    background-color: darksalmon;
+td{
+    padding-left: 230px;
+    padding-right: 230px;
+    padding-top: 170px;
+}
+tr:first-child td:nth-child(1), tr:first-child td:nth-child(2),
+tr:nth-child(2) td:nth-child(1), tr:nth-child(2) td:nth-child(2){
+    
+    background-color: coral;
 }
 
-#div2{
-    background-color:rgb(201, 201, 38);
+tr:first-child td:nth-child(3), tr:first-child td:nth-child(4),
+tr:nth-child(2) td:nth-child(3), tr:nth-child(2) td:nth-child(4){
+    
+    background-color: rgb(212, 248, 6);
 }
 
-#div3{
-    background-color: rgb(122, 233, 128);
+tr:nth-child(3) td:nth-child(1), tr:nth-child(3) td:nth-child(2),
+tr:nth-child(4) td:nth-child(1), tr:nth-child(4) td:nth-child(2){
+    background-color: rgb(80, 255, 80);
+    float: center;
 }
-
-#div4{
-    background-color: rgb(30, 10, 207);
+tr:nth-child(3) td:nth-child(3), tr:nth-child(3) td:nth-child(4),
+tr:nth-child(4) td:nth-child(3), tr:nth-child(4) td:nth-child(4){
+    background-color: rgb(6, 200, 248);
+    float: center;
 }
-
-
 
 footer{
     background-color:gray;
-    padding: 3%;
+    padding: 1%;
+}
+
+@media (max-width: 1000px) {
+    tr:first-child td:nth-child(1), tr:first-child td:nth-child(2),
+tr:nth-child(2) td:nth-child(1), tr:nth-child(2) td:nth-child(2){
+    
+    background-color: rgb(255, 80, 197);
+}
 }
