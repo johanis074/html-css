@@ -1,0 +1,41 @@
+*{
+    margin: auto;
+    padding: 30px;
+    border-collapse: collapse;
+}
+
+td{
+    border: 1px solid rgb(8, 8, 8);
+}
+
+.violet{
+    background-color: #581846;
+}
+
+.dpink{
+    background-color: #910C3F;
+}
+
+.pink{
+    background-color: #C7003A;
+}
+
+.beige{
+    background-color: #F5E5B2;
+}
+
+.dbeige{
+    background-color: #D6C99C;
+}
+
+.dgreen{
+    background-color: #004B36;
+}
+
+.dblue{
+    background-color: #0066BF;
+}
+
+.blue{
+    background-color: #0086FF;
+}
