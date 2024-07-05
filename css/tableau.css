@@ -32,10 +32,18 @@ td{
     background-color: #004B36;
 }
 
+.green{
+    background-color: #007C59;
+}
+
 .dblue{
     background-color: #0066BF;
 }
 
 .blue{
     background-color: #0086FF;
+}
+
+.cblue{
+    background-color: #0ED3FF;
 }
