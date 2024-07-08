@@ -28,12 +28,24 @@ td{
     background-color: #D6C99C;
 }
 
+.cbeige{
+    background-color: #FFE181;
+}
+
 .dgreen{
     background-color: #004B36;
 }
 
 .green{
     background-color: #007C59;
+}
+
+.ggreen{
+    background-color: #00C78F;
+}
+
+.cgreen{
+    background-color: #00956B;
 }
 
 .dblue{
@@ -47,3 +59,8 @@ td{
 .cblue{
     background-color: #0ED3FF;
 }
+
+.yellow{
+    background-color: #FFC300;
+}
+

@@ -1,0 +1,17 @@
+h1, h2, div, a, p, span, section{
+    border: 1px solid purple;
+    background-color: #a77712;
+    text-align: center;
+}
+
+.block{
+    display: block;
+}
+
+.diseapper{
+display: none;
+}
+
+.inline{
+    display: inline;
+}
