@@ -5,8 +5,10 @@ body{
    background-color: #DDEEAA;
 }
 header,section,footer{
-    margin: 0 30%;
     background-color: #FFFFFF;
+}
+nav,header,section,footer{
+    margin: 0 30%;
     border-left: 1px solid #AABB44;
     border-right: 1px solid #AABB44;
 }
@@ -17,10 +19,7 @@ header{
 }
 
 nav{
-    margin: 0 30%;
     padding: 1% 0;
-    border-left: 1px solid #AABB44;
-    border-right: 1px solid #AABB44;
     background-color: #92DA35;
     
 }
@@ -65,6 +64,7 @@ div{
 p{
     font-size: 15px;
     padding-top: 3%;
+    line-height: 27px;
 }
 
 h3{
@@ -79,4 +79,10 @@ footer p{
     color: #B1CB55;
     text-align: right;
     font-size: 15px;
+}
+
+@media(max-width: 800px){
+    p{
+        color: #B1CB55;
+    }
 }
