@@ -1,0 +1,12 @@
+.taille{
+    margin-left: 22%;
+}
+.cardimg{
+    clip-path:ellipse(33% 50%);
+    }
+.foot{
+    padding-left: 25%;
+}
+footer .card{
+    background-color: #909294;
+}
